@@ -53,6 +53,11 @@ h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size
 .button.ink { color: white; background: var(--blue-deep); }
 .button.ghost { color: var(--blue-deep); border: 1px solid #aac7d9; background: var(--white); }
 .button.business-button { color: #1a2b36; background: #f4ead6; box-shadow: 0 8px 18px rgba(0,0,0,.16); }
+.inline-cta { margin: 24px 0 0; }
+.text-link { display: inline-flex; align-items: center; gap: 8px; color: var(--blue-deep); font-weight: 750; border-bottom: 1px solid #9fc4d7; padding-bottom: 2px; }
+.text-link span { font-size: 18px; line-height: 1; transition: transform .15s ease; }
+.text-link:hover { color: var(--blue); }
+.text-link:hover span { transform: translateX(3px); }
 
 section { padding: 78px 0; }
 .section-head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(300px, .8fr); gap: 36px; align-items: end; margin-bottom: 30px; }
