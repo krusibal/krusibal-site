@@ -1,33 +1,19 @@
-# Ivan Žujović — statički sajt
+# Ivan Žujović — sajt
 
-## V3 sadržaj
-- glavni hero zadržava informativni ulaz „Da li je ovaj rad za mene?“
-- sekundarni hero CTA je preciziran: „Znam temu — ulazno mapiranje“
-- duplirani vizuelni CTA za mapiranje zamenjen je tihim tekstualnim linkom
-- generički Linktree link je uklonjen iz footera svih stranica
-- Linktree ostaje samo kao operativni korak u kontekstualnim CTA-ovima (mapiranje, 1:1, radionice i biznis)
-- tekstovi ličnih CTA-ova su precizirani: „Zakaži ulazno mapiranje“ i „Pošalji upit za rad 1:1“
+Statički sajt za GitHub Pages.
 
-## Objavljivanje
-GitHub Pages: `main` → `/(root)`.
+## Verzija 4
 
-Za lokalni pregled:
-```bash
-python3 -m http.server 8080
-```
-pa otvori `http://localhost:8080`.
+- **Ulazno sistemsko mapiranje:** dugme vodi direktno na Google Formu za prijavu.
+- **Rad 1:1 za profesionalne situacije:** zasebna poslovna stranica, bez predstavljanja „mapiranja za biznis” kao posebnog proizvoda.
+- Poslovni upit vodi direktno na Google Formu.
+- Stari URL `/sistemsko-mapiranje-za-biznis/` ostaje kao preusmerenje ka novoj poslovnoj stranici.
 
-## Pre povezivanja domena
-Ne preimenovati `CNAME.example` u `CNAME`.
+## Google Forms
 
-## Posle povezivanja domena
-1. U GitHub Pages u polje Custom domain uneti `krusibal.rs`.
-2. Tek kad GitHub potvrdi domen, napraviti fajl `CNAME` sa samo: `krusibal.rs`.
-3. U mCloud DNS panelu dodati zapise po GitHub Pages uputstvu.
-4. Kada HTTPS postane dostupan, uključiti Enforce HTTPS.
+- Ulazno sistemsko mapiranje: `https://forms.gle/oKXXthRXSLmo7HFt7`
+- Poslovni upit 1:1: `https://forms.gle/heE8LRsi1gJxnxnZ6`
 
-## Napomena o Linktree CTA-ovima
-Trenutni lični CTA-ovi vode na postojeći profil `linktr.ee/krusibal`, jer su tamo aktivni operativni tokovi. Kada napraviš zasebne deljive URL-ove za mapiranje i 1:1, zameni samo odgovarajuće `href` vrednosti u:
-- `ulazno-sistemsko-mapiranje/index.html`
-- `rad-1-na-1/index.html`
-- `radionice/index.html`
+## Domen
+
+Pre povezivanja domena nema aktivnog `CNAME` fajla. Kada se poveže GitHub Pages, `krusibal.rs` postaje kanonski domen.
