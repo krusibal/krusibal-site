@@ -150,3 +150,44 @@ details p { color: var(--muted); margin: 14px 0 2px; }
   .button { width: 100%; }
   .hero, .business-hero { padding-top: 64px; }
 }
+
+@media (max-width: 880px) {
+  .grid-3 {
+    gap: 12px;
+  }
+
+  a.format-card {
+    min-height: 0;
+    height: auto;
+    padding: 22px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+  }
+
+  .format-card h3 {
+    margin: 0 0 8px;
+  }
+
+  .format-card p {
+    margin: 0;
+  }
+
+  .format-card .arrow {
+    flex: 0 0 auto;
+    margin: 0;
+    align-self: center;
+    font-size: 1.6rem;
+    line-height: 1;
+  }
+
+    .button-primary {
+    width: 100%;
+  }
+
+  .button-secondary {
+    width: fit-content;
+  }
+}

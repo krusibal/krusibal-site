@@ -9,4 +9,5 @@
   <url><loc>https://krusibal.rs/radionice/</loc></url>
   <url><loc>https://krusibal.rs/eticki-okvir/</loc></url>
   <url><loc>https://krusibal.rs/o-meni/</loc></url>
+  <url><loc>https://krusibal.rs/prostor-i-lokacija/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
